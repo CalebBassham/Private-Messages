@@ -1,0 +1,12 @@
+name: PrivateMessages
+version: 1.0.0-SNAPSHOT
+author: Caleb Bassham
+main: me.calebbassham.privatemessages.PrivateMessagesPlugin
+
+commands:
+  message:
+    aliases: [whisper, msg, tell, w, t]
+    usage: /<command> <player> <message>
+  reply:
+    aliases: [r]
+    usage: /<command> <message>
